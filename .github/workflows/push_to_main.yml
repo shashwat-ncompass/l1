@@ -1,8 +1,0 @@
-name: Push to Main Branch
-on:
-        push:
-                branches:
-                        - master
-                jobs:
-                        echo:
-                                run: echo "pushing onto the main branch !!"
